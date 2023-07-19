@@ -1,0 +1,31 @@
+.grid-box {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}
+
+.left-side {
+  border-left: 1px solid;
+}
+
+.right-side {
+  border-right: 1px solid;
+}
+
+.top-row {
+  border-top: 2px solid;
+}
+
+.bottom-row {
+  border-bottom: 2px solid;
+}
+
+.draw {
+  background-color: black;
+}
