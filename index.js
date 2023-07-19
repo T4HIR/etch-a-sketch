@@ -7,6 +7,10 @@ getDefaultGrid();
 newGrid.addEventListener('click', () => {
   let gridNumber = parseInt(prompt('Enter the length/width of your new grid in terms of box number.', '0'));
 
+  while (gridNumber > 100) {
+    gridNumber = parseInt(prompt('Your previous number was too high, please enter another one.', '0'));
+  }
+
   removeGrid(getOldGridNumber());
   getFlexBoxes(gridNumber);
 });
