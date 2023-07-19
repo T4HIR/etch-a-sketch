@@ -67,7 +67,7 @@ function getFlexBoxes(gridNumber) {
         div.classList.toggle('grid-box');
 
         div.addEventListener('mouseover', () => {
-          div.classList.toggle('draw');
+          div.style.backgroundColor = 'black';
         })
 
         if (i === 1) {
